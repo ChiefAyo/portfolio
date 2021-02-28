@@ -11,7 +11,7 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize}) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
 
     // same for button, default to first button if no size is chosen
-    const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZE[0];
+    const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return (
         <Link to='/' className='btn-mobile'>

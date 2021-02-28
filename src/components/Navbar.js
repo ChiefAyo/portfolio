@@ -1,14 +1,28 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { Button } from './Buttons';
 
 function Navbar() {
     // set the state for the click function
     const [click, setClick] = useState(false);
-    
+    const {button, setButton} = useState(true)
+
+
     //switches between clicked and not cliked by reversing the value of the state
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)
 
+    //displays button based on screensize
+
+    const showButton = () => {
+        if(window.innerWidth <= 960){
+            setButton(false)
+        } else {
+            setButton(true)
+        }
+    }
+
+    window.addEventListener('resize', showButton);
 
     return (
         <>
@@ -43,6 +57,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
+                    {button && <Button buttonStyle='btn--outline'>Test Button</Button>}
                 </div>
             </nav>
         </>
