@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from './Buttons';
 import './Navbar.css'
@@ -6,7 +6,7 @@ import './Navbar.css'
 function Navbar() {
     // set the state for the click function
     const [click, setClick] = useState(false);
-    const {button, setButton} = useState(true)
+    const [button, setButton] = useState(true)
 
 
     //switches between clicked and not cliked by reversing the value of the state
@@ -23,13 +23,18 @@ function Navbar() {
         }
     }
 
+    // prevents button from reappearing when page refreshed
+    useEffect(() => {
+        showButton();
+    }, []);
+
     window.addEventListener('resize', showButton);
 
     return (
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         AAO
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
