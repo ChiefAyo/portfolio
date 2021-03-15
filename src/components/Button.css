@@ -4,7 +4,7 @@
 
 .btn {
     padding: 8px 20px;
-    border-radius: 0px;
+    border-radius: 2px;
     outline: none;
     border: 1px solid rgb(163, 4, 4);
     cursor: pointer;
@@ -21,6 +21,7 @@ btn--primary {
     background-color: transparent;
     color: white;
     padding: 8px 20px;
+    /*order: 1px solid var(--primary);*/
     transition: all 0.3s ease-out;
 }
 

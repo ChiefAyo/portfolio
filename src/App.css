@@ -6,6 +6,7 @@
 }
 
 .home, .projects, .music, .posts {
+    background-color: rgb(117, 114, 114);
     display: flex;
     height: 90vh;
     align-items: center;

@@ -19,7 +19,7 @@
 
 .navbar-logo {
     color: rgb(117, 114, 114);
-    justify-self: 20px;
+    justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
@@ -36,6 +36,7 @@
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 60vw;
@@ -82,7 +83,7 @@
         height: 90vh;
         position: absolute;
         top: 80px;
-        left: 100%;
+        left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
     }
@@ -92,6 +93,7 @@
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
+        z-index: 1;
     }
 
     .nav-links {
