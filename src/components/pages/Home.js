@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../App.css'
 import './Home.css'
+import '../CardItem.js'
+import CardItem from '../CardItem.js'
 // hero section here if we want one
 
 function Home() {
@@ -17,6 +19,16 @@ function Home() {
             <ul className='relevant-links'>
                 <li>Twitter</li>
                 <li>GitHub</li>
+            </ul>
+        </div>
+        <div className="card-container">
+            <ul className="card-list">
+                <CardItem
+                src='/'
+                text='Example Project 1'
+                label='JavaScript'
+                path='/projects'
+                />     
             </ul>
         </div>
         </>
