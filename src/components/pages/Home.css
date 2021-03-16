@@ -1,0 +1,31 @@
+
+
+h1 {
+    font-size: 45px;
+}
+
+
+.my-name{
+    font-weight: bold;
+}
+
+.my-name:hover {
+    color: rgb(163, 4, 4);
+    transition: all 0.4s ease-in-out;
+}
+
+.relevant-links{
+    list-style: disc;
+}
+
+.smile {
+    
+}
+
+.smile:hover {
+    /*-webkit-transform: scale(1.2);*/
+    font-size: larger;
+    transition: all 0.4s ease-in-out;
+    color:rgb(163, 4, 4);
+}
+
