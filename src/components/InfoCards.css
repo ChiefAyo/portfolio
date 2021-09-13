@@ -59,7 +59,7 @@ h1 {
 .card-item-wrap::after {
     content: attr(data-category);
     position: absolute;
-    bottom: 0;
+    bottom: 6px;
     margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
@@ -68,6 +68,8 @@ h1 {
     color: rgb(163, 148, 148);
     background-color: rgb(163,4,4);
     box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: none;
   }
 
 .card-item-image {

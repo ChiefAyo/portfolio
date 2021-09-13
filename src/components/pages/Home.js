@@ -27,7 +27,7 @@ function Home() {
                 <CardItem
                 src='../../resources/images/portfolio-preview.jpg'
                 text='Portfolio'
-                label='JavaScript'
+                label='Javascript (React.js)'
                 path='https://github.com/ChiefAyo/portfolio'
                 technologies = 'JavaScript, React.js'
                 />     

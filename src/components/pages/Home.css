@@ -43,3 +43,12 @@ h1 {
     color:rgb(163, 4, 4);
 }
 
+.card-list {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    max-width: 1120px;
+    width: 60%;
+    margin: 0 auto;
+}
+
