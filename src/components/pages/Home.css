@@ -8,6 +8,15 @@ h1 {
     margin: auto;
     width:60%;
     padding: 10px;
+    box-shadow: 0px 2px 5px #000000;
+    border-radius: 15px;
+    /* border: 1px solid black;
+    z-index: 3; */
+    
+}
+
+.main-info-container li {
+    list-style-type: none;
 }
 
 .my-name{

@@ -16,22 +16,25 @@ function Home() {
                 <h1>THIS IS A WORK IN PROGRESS</h1>
             </div>
 
-            <h3>You can find me here:</h3>
+            <h3 className='socials-label'>You can find me here:</h3>
             <ul className='relevant-links'>
                 <li>Twitter </li>
                 <li>GitHub</li>
             </ul>
-        </div>
-        <div className="card-container">
+
+            <div className="card-container">
             <ul className="card-list">
                 <CardItem
-                src='/'
-                text='Example Project 1'
+                src='../../resources/images/portfolio-preview.jpg'
+                text='Portfolio'
                 label='JavaScript'
-                path='/projects'
+                path='https://github.com/ChiefAyo/portfolio'
+                technologies = 'JavaScript, React.js'
                 />     
             </ul>
         </div>
+        </div>
+        
         </>
     )
 }
