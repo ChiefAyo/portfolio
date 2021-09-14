@@ -6,7 +6,7 @@ h1 {
 
 .main-info-container {
     margin: auto;
-    width:60%;
+    width:75%;
     padding: 10px;
     box-shadow: 0px 2px 5px #000000;
     border-radius: 15px;
@@ -45,10 +45,18 @@ h1 {
 
 .card-list {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     align-items: center;
     max-width: 1120px;
     width: 60%;
     margin: 0 auto;
 }
 
+.relevant-links > li {
+    font-size: 15px;
+}
+
+.socials-section {
+    /* border: 1px solid rgb(163, 4, 4); */
+    width: 27%;
+}

@@ -6,8 +6,7 @@ function CardItem(props) {
     return (
         <>
             <li className="card-item">
-                <Link className="card-item-link" to={props.path}>
-                    
+                <a className="card-item-link" href={props.path}>
                     <figure className="card-item-wrap" data-category={props.label}>
                         <img src={props.src} alt={props.text} className="card-item-image"/>
                     </figure>
@@ -19,8 +18,7 @@ function CardItem(props) {
                             {props.technologies}
                         </div>
                     }
-                    
-                </Link>
+                </a>
             </li>
         </>
     )
