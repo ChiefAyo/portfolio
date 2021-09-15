@@ -22,9 +22,9 @@ function Home() {
             <div className='socials-section'>
                 <h3 className='socials-label'>You can find me here:</h3>
                 <ul className='relevant-links'>
-                    <li>Twitter: <SocialIcon url="https://twitter.com/ayo_olagbaiye" bgColor="#000000" fgColor="rgb(117, 114, 114)" style={{ height: 25, width: 25}}/></li>
-                    <li>GitHub: <SocialIcon url="https://github.com/ChiefAyo" bgColor="#000000" fgColor="rgb(117, 114, 114)" style={{ height: 25, width: 25}}/></li>
-                    <li>LinkedIn: <SocialIcon url="https://www.linkedin.com/in/ayoolagbaiye/" bgColor="#000000" fgColor="rgb(117, 114, 114)" style={{ height: 25, width: 25}}/></li>
+                    <SocialIcon className='social-icons' url="https://twitter.com/ayo_olagbaiye" bgColor="#000000" fgColor="rgb(117, 114, 114)" style={{ height: 25, width: 25}}/>
+                    <SocialIcon className='social-icons' url="https://github.com/ChiefAyo" bgColor="#000000" fgColor="rgb(117, 114, 114)" style={{ height: 25, width: 25}}/>
+                    <SocialIcon className='social-icons' url="https://www.linkedin.com/in/ayoolagbaiye/" bgColor="#000000" fgColor="rgb(117, 114, 114)" style={{ height: 25, width: 25}}/>
                 </ul>
             </div>
 
