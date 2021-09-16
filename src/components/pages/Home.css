@@ -19,6 +19,19 @@ h1 {
     list-style-type: none;
 }
 
+.intro-section {
+    display: flex;
+}
+
+.intro-section > div {
+    flex: 1;
+}
+
+.intro-section-image > img {
+    height: 100%;
+    width: 50%;
+}
+
 .my-name{
     font-weight: bold;
 }

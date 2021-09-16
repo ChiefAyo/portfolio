@@ -12,11 +12,19 @@ function Home() {
     return (
         <>
         <div className='main-info-container'>
-            <h2 className='intro-line'>I guess this is my website... My name is <span className='my-name'>Ayo Olagbaiye</span></h2>
-            <h3 className='about-heading'>About me: </h3>
-            <div className='my-description'>A Computer Science student, striving to learn and understand as much as possible
-                in an infinitely ever changing world of technology. Let us explore together <span className= 'smile'>:)</span>.
-                <h1>THIS IS A WORK IN PROGRESS</h1>
+
+            <div className='intro-section'>
+                <div className="intro-section-text">
+                    <h2 className='intro-line'>I guess this is my website... My name is <span className='my-name'>Ayo Olagbaiye</span></h2>
+                    <h3 className='about-heading'>About me: </h3>
+                    <div className='my-description'>A Computer Science graduate, striving to learn and understand as much as possible
+                        in an infinitely ever changing world of technology. Let us explore together <span className='smile'>:)</span>.
+                        <h1>THIS IS A WORK IN PROGRESS</h1>
+                    </div>
+                </div>
+                <div className="intro-section-image">
+                    <img src = "resources/images/headshot.jpg" alt="My Face Goes here!"></img>
+                </div>
             </div>
 
             <div className='socials-section'>
