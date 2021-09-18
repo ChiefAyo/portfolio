@@ -24,6 +24,11 @@ h1 {
     flex: 1;
 }
 
+.intro-section-image {
+    display: flex;
+    justify-content: center;
+}
+
 .intro-section-image > img {
     height: 100%;
     width: 50%;
@@ -53,7 +58,7 @@ h1 {
     color:rgb(163, 4, 4);
 }
 
-.card-list {
+.card-container {
     display: flex;
     flex-flow: column;
     align-items: center;

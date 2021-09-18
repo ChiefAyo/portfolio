@@ -34,7 +34,7 @@ h1 {
 
 .card-item-link {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     width: 100%;
     box-shadow: 0 2px 5px #000000;
     -webkit-filter: drop-shadow(0 2px 5px #000000);
@@ -65,7 +65,7 @@ h1 {
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
-    color: rgb(163, 148, 148);
+    color: rgb(189, 184, 184);
     background-color: rgb(163,4,4);
     box-sizing: border-box;
     border-radius: 5px;
@@ -95,4 +95,22 @@ h1 {
     color: #ffff;
     font-size: 18px;
     line-height: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .card-items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .card-item {
+      margin-bottom: 2rem;
+    }
 }

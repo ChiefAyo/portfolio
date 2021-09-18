@@ -37,15 +37,24 @@ function Home() {
             </div> */}
 
             <div className="card-container">
-                <ul className="card-list">
-                    <CardItem
-                    src="resources/images/portfolio-preview.jpg"
-                    text='Portfolio - GitHub project files for this portfolio'
-                    label='Javascript (React.js)'
-                    path='https://github.com/ChiefAyo/portfolio'
-                    technologies='JavaScript, React.js'
-                    />     
-                </ul>
+                <div className="card-wrapper">
+                    <ul className="card-items">
+                        <CardItem
+                        src="resources/images/portfolio-preview.jpg"
+                        text='Portfolio - GitHub project files for this portfolio'
+                        label='Javascript (React.js, Node.js)'
+                        path='https://github.com/ChiefAyo/portfolio'
+                        technologies='JavaScript, Node.js, React.js'
+                        />     
+                        <CardItem
+                        src="resources/images/above.jpg"
+                        text="Above Bot - Discord bot to encourage learning about space"
+                        label="JavaScript (Discord.js), Node.js"
+                        path="https://github.com/ChiefAyo/Above-bot"
+                        technologies="JavaScript, Node.js, Discord.js"
+                        />
+                    </ul>
+                </div>
             </div>
         
         
