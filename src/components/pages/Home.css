@@ -4,7 +4,7 @@ h1 {
     font-size: 45px;
 }
 
-.main-info-container {
+.main-container {
     margin: auto;
     width:75%;
     padding: 10px;
@@ -15,9 +15,6 @@ h1 {
     
 }
 
-.main-info-container li {
-    list-style-type: none;
-}
 
 .intro-section {
     display: flex;

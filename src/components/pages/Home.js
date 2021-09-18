@@ -11,7 +11,7 @@ import { SocialIcon } from 'react-social-icons';
 function Home() {
     return (
         <>
-        <div className='main-info-container'>
+        
 
             <div className='intro-section'>
                 <div className="intro-section-text">
@@ -27,14 +27,14 @@ function Home() {
                 </div>
             </div>
 
-            <div className='socials-section'>
+            {/* <div className='socials-section'>
                 <h3 className='socials-label'>You can find me here:</h3>
                 <ul className='relevant-links'>
                     <SocialIcon className='social-icons' url="https://twitter.com/ayo_olagbaiye" bgColor="#000000" fgColor="rgb(117, 114, 114)" style={{ height: 25, width: 25}}/>
                     <SocialIcon className='social-icons' url="https://github.com/ChiefAyo" bgColor="#000000" fgColor="rgb(117, 114, 114)" style={{ height: 25, width: 25}}/>
                     <SocialIcon className='social-icons' url="https://www.linkedin.com/in/ayoolagbaiye/" bgColor="#000000" fgColor="rgb(117, 114, 114)" style={{ height: 25, width: 25}}/>
                 </ul>
-            </div>
+            </div> */}
 
             <div className="card-container">
                 <ul className="card-list">
@@ -47,7 +47,7 @@ function Home() {
                     />     
                 </ul>
             </div>
-        </div>
+        
         
         </>
     )
